@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+.navBar {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.navBar .container 
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+ 
+    Justify-content:space between;
+       
+    align-items: center;
+}
+
+.websiteLogo 
+{
+    
+    margin-top: 25px;
+}
+
+.websiteLogo img {
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 6px;
+    margin-bottom: 13px;
+}
+
+.navBar .menuList {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.menuList ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menuList ul li {
+    margin: 10px;
+}
+
+.menuList a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menuList a:hover {
+    color: goldenrod;
+}
+
+.portfolio h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.portfolio {
+    background-color: floralwhite;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio .items
+{ 
+    flex-wrap:wrap;
+    display: flex; 
+    gap:10px;
+}
+
+.portfolio .portfolio-item 
+{
+    display:flex;
+    width:25%;
+    flex-direction: row;
+    margin-left:42px;
+    margin-top: 20px;
+}
+
+
+.portfolio-item img {
+    width: 100%;
+    height: 70%;
+}
